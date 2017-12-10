@@ -1,0 +1,599 @@
+
+/*main-style*/
+/*banner*/
+.banner{
+  width: 100%;
+  height: 500px;
+  background-color: #31415e;
+}
+.bannerImg{
+  height: 100%;
+  background: url("../img/bannerBg.png") no-repeat center;
+  background-size: auto 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.bannerImg .textInfo{
+  display: inline-block;
+  width: 420px;
+  color: #fff;
+  vertical-align: top;
+  margin-top: 80px;
+  margin-right: 50px;
+}
+.bannerImg .textInfo h3{
+  font-weight: normal;
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.bannerImg .textInfo h3 span{
+  color: #31EEF0;
+}
+.bannerImg .textInfo p{
+  text-indent: 20px;
+  font-size: 16px;
+  padding: 5px 0;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.bannerImg .game{
+  display: inline-block;
+  width: 300px;
+  color: #000;
+  background-color: rgba(255,255,255, 1);
+  border-radius: 10px;
+  margin-top: 32px;
+}
+.bannerImg .game .image{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: linear-gradient(to top, #faaca8, #ddd6f3);
+  height: 300px;
+  vertical-align: top;
+}
+.bannerImg .game .image img{
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.bannerImg .game .info h5{
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.bannerImg .game .info p{
+  margin: 0 0 10px;
+}
+.bannerImg .game .info .btn{
+  color: #337ab7;
+  text-decoration: none;
+}
+.bannerImg .game .info .btn label{
+  background-color: #E15859;
+  padding: 10px 40px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 15px #888;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.bannerImg .game .info .btn label:hover{
+  color: #bbb;
+  cursor: pointer;
+}
+/*content1*/
+.content{
+  height: 570px;
+  background-image: linear-gradient(to bottom, #abd8e3, #f5fafb);
+  text-align: center;
+}
+.content .personItem{
+  padding-top: 15px;
+}
+.content .personItem li{
+  height: 170px;
+  width: 355px;
+  display: inline-block;
+}
+.content .personItem li div{
+  height: 100%;
+}
+.content .personItem li:nth-of-type(1){
+  padding-left: 20px;
+}
+.content .personItem:last-child{
+  padding-right: 20px;
+}
+.content .personItem li:nth-of-type(1) div{
+  background: url("../img/obm.jpg") no-repeat;
+}
+.content .personItem li:nth-of-type(2) div{
+  background: url("../img/qbs.jpg") no-repeat;
+}
+.content .personItem li:nth-of-type(3) div{
+  background: url("../img/begc.jpg") no-repeat;
+}
+.secendLine {
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 15px;
+}
+div.courseVideoArea {
+  width: 580px;
+  margin-top: -20px;
+}
+.secendLine>div {
+  height: 360px;
+  padding: 10px;
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+}
+.courseVideoArea .videoItem {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #C5D5EE;
+  border: solid 8px #fff;
+  border-radius: 10px;
+}
+.startVideoArea[state=pause] {
+  display: inline-block;
+}
+.startVideoArea {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../img/playBtn.png") no-repeat center;
+  background-color: rgba(200, 200, 200, 0.9);
+  z-index: 3;
+  left: 0px;
+}
+.courseVideoArea .videoItem video {
+  width: 100%;
+  height: 100%;
+}
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+div.courseTextInfoArea {
+  width: 580px;
+}
+.secendLine>div {
+  height: 360px;
+  padding: 10px;
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+}
+.courseTextInfoArea .courseRelative {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 30px 0px;
+}
+.courseRelative p {
+  text-align: left;
+  padding: 13px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.courseRelative p:before {
+  content: "-";
+}
+/*content2*/
+.contentCard:nth-child(3) {
+  background-color: #F6AC49;
+  text-align: center;
+}
+.cardIntroduce {
+  color: #fff;
+  font-size: 40px;
+  padding-top: 40px;
+  margin-top: 0px;
+}
+.descriptionCard1 {
+  vertical-align: top;
+  display: inline-block;
+  width: 280px;
+  height: 480px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+.descriptionCard1 .icon2 {
+  background: url(../img/function2.png) center no-repeat;
+  background-size: contain;
+}
+.descriptionCard1 .functionIcon {
+  width: 100%;
+  height: 260px;
+  border-radius: 10px;
+}
+.descriptionCard1 .functionTitle {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.descriptionCard1 .functionContent {
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+}
+.description2 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.descriptionCard1 .icon3 {
+  background: url(../img/function3.png) center no-repeat;
+  background-size: contain;
+}
+.descriptionCard1 .icon1 {
+  background: url(../img/function1.png) center no-repeat;
+  background-size: contain;
+}
+/*content3*/
+.contentCard:nth-child(4) {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+.contentCard {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+}
+.teacherIntroduce {
+  color: #51C3C4;
+  font-size: 40px;
+  padding: 40px 0;
+  margin-top: 0;
+}
+.teacherInfo2 {
+  background: url(../img/red.png) bottom no-repeat;
+}
+.descriptionCard {
+  width: 280px;
+  height: 350px;
+  display: inline-block;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  vertical-align: top;
+  margin-top: 70px;
+  -webkit-box-shadow: 0 0 10px #888;
+  -moz-box-shadow: 0 0 10px #888;
+  box-shadow: 0 0 10px #888;
+}
+.descriptionCard .teacherCard {
+  margin-top: -83px;
+}
+.teacherCard {
+  width: 150px !important;
+  position: relative !important;
+  color: #fff;
+  font-size: 30px;
+}
+.portraitImageText {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  padding: 0px;
+  margin: 0px;
+  word-break: break-all;
+  text-align: center;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.descriptionCard .teacher2:before {
+  background: url(../img/YasminKafai.png) center no-repeat;
+  background-size: contain;
+}
+.descriptionCard .teacherCard:before {
+  background-size: contain;
+}
+.teacherCard:before {
+  width: 150px !important;
+  height: 150px !important;
+  margin-bottom: 5px;
+  border: solid 3px #fff;
+}
+.portraitImageText:before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: #ddd;
+  display: inline-block;
+  vertical-align: middle;
+}
+label.portraitImageText span {
+  position: relative;
+  display: inline-block;
+  border-top: solid 0px #999;
+  color: #999;
+  text-align: center;
+  margin-top: 10px;
+}
+.teacherCard span {
+  width: 250px;
+  border: none !important;
+  color: #fff !important;
+  margin-left: -34%;
+}
+.teacherTitle {
+  font-size: 20px;
+  color: #fff;
+}
+p {
+  margin: 0 0 10px;
+}
+.teacherInfo3 {
+  background: url(../img/yellow.png) bottom no-repeat;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.descriptionCard .teacherCard {
+  margin-top: -83px;
+}
+.teacherCard {
+  width: 150px !important;
+  position: relative !important;
+  color: #fff;
+  font-size: 30px;
+}
+.descriptionCard .teacher3:before {
+  background: url(../img/wangyuhang.png) center no-repeat;
+  background-size: contain;
+}
+.teacherInfo1 {
+  background: url(../img/blue.png) bottom no-repeat;
+}
+.descriptionCard .teacher1:before {
+  background: url(../img/zengpengxuan.png) center no-repeat;
+  background-size: contain;
+}
+.teacherIntroduce1 {
+  color: #51C3C4;
+  font-size: 30px;
+  padding-bottom: 40px;
+  margin-top: 0px;
+}
+.contentCard:nth-child(5) {
+  background: url(../img/indexBg1.png) no-repeat center;
+  background-size: 100% 100%;
+  background-color: #51C3C4;
+  text-align: center;
+  font-weight: 900;
+}
+.courseResultArea h3 {
+  text-align: center;
+  color: #000;
+  margin-top: 0px;
+  font-size: 40px;
+  padding-top: 40px;
+}
+.courseResultArea .worksExample {
+  float: left;
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+.courseResultArea .worksExample .imageItem:nth-child(1) {
+  margin-right: 56px;
+}
+.courseResultArea .worksExample .imageItem {
+  position: relative !important;
+  display: inline-block;
+  height: 250px;
+  width: 330px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.imageItem {
+  position: absolute;
+  display: inline-block;
+  width: 250px;
+  padding: 3px;
+  margin: 0px;
+  word-break: break-all;
+  text-align: center;
+}
+.courseResultArea h5 {
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  float: left;
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.courseResultArea .focusTextItem {
+  width: 850px;
+  font-size: 28px;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.focusTextItem {
+  position: relative;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.focusTextItem:before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-left: solid 5px;
+  border-top: solid 5px;
+  left: 0px;
+  top: 0px;
+}
+.focusTextItem:after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-right: solid 5px;
+  border-bottom: solid 5px;
+  bottom: 0px;
+  right: 0px;
+}
+/*content4*/
+.contentCard:nth-child(6) {
+  background: url(../img/indexBg2.png) no-repeat bottom;
+  background-size: 100% auto;
+  background-color: #FFFFFF;
+}
+.contentCard {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+}
+.commentsInfoArea h3 {
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+  margin-top: 0px;
+  padding-top: 40px;
+}
+.commentsInfoArea .commentsInfoImage {
+  float: left;
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.commentsInfoArea .commentsInfoImage .imageItem {
+  position: relative !important;
+  display: inline-block;
+  width: 350px;
+  height: 400px;
+  font-size: 18px;
+  background: none;
+}
+.imageItem {
+  position: absolute;
+  display: inline-block;
+  width: 250px;
+  padding: 3px;
+  margin: 0px;
+  word-break: break-all;
+  text-align: center;
+}
+.commentsInfoArea .commentsInfoImage .imageItem:before {
+  margin-bottom: 10px;
+  width: 350px;
+  height: 400px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px #888;
+  -moz-box-shadow: 0 0 10px #888;
+  box-shadow: 0 0 10px #888;
+}
+.commentsInfoArea .comments1:before {
+  background: url(../img/comments1.png) no-repeat;
+  background-size: cover;
+}
+.commentsInfoArea .imageItem:before {
+  content: "";
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.commentsInfoArea .comments2 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.imageItem {
+  padding: 3px;
+  margin: 0px;
+  word-break: break-all;
+  text-align: center;
+}
+.commentsInfoArea .commentsInfoImage .imageItem:before {
+  margin-bottom: 10px;
+  width: 350px;
+  height: 400px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px #888;
+  -moz-box-shadow: 0 0 10px #888;
+  box-shadow: 0 0 10px #888;
+}
+.commentsInfoArea .comments2:before {
+  background: url(../img/comments2.png) no-repeat;
+  background-size: cover;
+}
+/*content5*/
+.contentCard:nth-child(7) {
+  border: none;
+  border-top: dashed 2px #ddd;
+  border-bottom: dashed 2px #ddd;
+  background-color: #FFFFFF;
+}
+.contentCard {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+}
+.courseSectionsArea h3 {
+  text-align: center;
+  color: #000;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 40px;
+}
+.courseSectionsArea .grade{
+  height: 481px;
+  background: url("../img/grade.jpg") no-repeat;
+}
+/*footer*/
+footer{
+  height: 300px;
+  padding: 0 20px;
+  background-color: #51c3c4;
+}
+footer>h5{
+  font: 28px/66px "微软雅黑";
+  border-bottom: 1px solid white;
+}
+footer nav{
+  margin-bottom: 36px;
+}
+footer nav a{
+  font: 14px/60px "微软雅黑";
+  text-decoration: none;
+  color: #000000;
+  margin-right: 30px;
+}
+footer nav a:hover{
+  text-decoration: underline;
+}
+footer p{
+  font: 14px/30px "微软雅黑";
+  text-align: center;
+  color: white;
+}
